@@ -8,10 +8,9 @@ ciphertext = '4e54eac041dd3cccca8c4f62ff8b4e6b59a7129cb6cbcb4621c86a83f712914d5b
 
 key = bytes('CHALENGE'*2, 'utf-8')
 
-# aes decrypt
+# aes-128-cbc
 aesCipher = Cipher(algorithms.AES(key),
                    modes.ECB(), backend=default_backend())
-# aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
 
 a = aesDecryptor.update(bytes.fromhex(ciphertext))
