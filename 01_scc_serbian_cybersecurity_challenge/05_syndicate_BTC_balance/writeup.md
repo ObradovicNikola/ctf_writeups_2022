@@ -12,4 +12,4 @@ We can see the `strcmp` method is called with our flag:
 
 `strcmp("f", "76.31342913")`
 
-A more complicated and longer way would be to reverse engineer the amount with Ghidra.
+A more complicated and longer way would be to reverse engineer the amount with Ghidra. This is what I've done during the CTF.
