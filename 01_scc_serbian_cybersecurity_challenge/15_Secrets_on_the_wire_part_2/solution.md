@@ -9,6 +9,6 @@ We see that the saved file is a zip archive.
 As per instructions from the task, with Vigenere cipher we can get the password for the zip archive.
 Using `SCCtwentytwo` as the plaintext and the key, we get `KEEmsiamwmsc`.
 
-Now, after opening the zip archive we see an image which contains the flag.
+Now, after opening the zip archive we see an image that contains the flag.
 
 `5CC-f1@G!`
