@@ -15,3 +15,10 @@ At first glance at the wat code and using browser debuger tools, we notice that 
 This function looks a bit complicated and time consuming to statically analyze further, so we will write a python script to dynamically execute wasm script (using https://github.com/bytecodealliance/wasmtime-py) and brute force 2 characters at a time.
 
 [Python script](ape.py)
+
+
+## Other solutions
+
+### [JeffersonDing](https://github.com/JeffersonDing/CTF/tree/master/pico_CTF_2021/web/some_assembly_required_4) - using [z3 theorem prover](https://github.com/z3prover/z3), sat solver
+
+### [Larry Yuan](https://web.archive.org/web/20210616163959/https://larry.science/post/picoctf-2021/) - modified wasm and NodeJS
